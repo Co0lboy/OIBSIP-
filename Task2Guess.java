@@ -22,10 +22,10 @@ public class Task2Guess  {
             if (userGuess == randomNumber) {
                 System.out.println("Congratulations! You guessed the number in " + numAttempts + " attempts!");
                 break;
-            } else if (userGuess < randomNumber) {
+            } else if (userGuess < randomNumber) {//for valuue is less than guessing value
                 System.out.println("Your guess is too low. Try again!");
             } else {
-                System.out.println("Your guess is too high. Try again!");
+                System.out.println("Your guess is too high. Try again!");//for valuue is higher than guessing value
             }
         }
         
